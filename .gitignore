@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.sqlite
+.env
+*.json.key
+service-account*.json
+*.xlsx

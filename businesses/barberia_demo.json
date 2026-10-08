@@ -1,0 +1,30 @@
+{
+  "id": "barberia_demo",
+  "name": "Barbería Demo",
+  "timezone": "America/Guayaquil",
+  "slot_minutes": 30,
+  "buffer_minutes": 10,
+  "max_options": 3,
+  "min_notice_minutes": 60,
+  "horizon_days": 45,
+  "address": null,
+  "privacy_notice": "Soy el asistente virtual de Barbería Demo. Uso tu número y tu nombre solo para gestionar tus citas.",
+  "hours": {
+    "mon": [["09:00", "13:00"], ["14:00", "18:00"]],
+    "tue": [["09:00", "13:00"], ["14:00", "18:00"]],
+    "wed": [["09:00", "13:00"], ["14:00", "18:00"]],
+    "thu": [["09:00", "13:00"], ["14:00", "18:00"]],
+    "fri": [["09:00", "13:00"], ["14:00", "18:00"]],
+    "sat": [["09:00", "14:00"]],
+    "sun": null
+  },
+  "services": [
+    {"id": "corte", "name": "Corte", "minutes": 30, "price": 12, "aliases": ["corte", "corte de pelo", "cortar el pelo", "cortarme el pelo"]},
+    {"id": "barba", "name": "Barba", "minutes": 20, "price": 8, "aliases": ["barba", "afeitado", "arreglo de barba"]},
+    {"id": "combo", "name": "Corte y barba", "minutes": 50, "price": 18, "aliases": ["combo", "corte y barba", "corte + barba", "corte con barba"], "components": ["corte", "barba"]}
+  ],
+  "professionals": [
+    {"id": "alex", "name": "Alex", "calendar_id": "REEMPLAZAR_alex@group.calendar.google.com"},
+    {"id": "dani", "name": "Dani", "calendar_id": "REEMPLAZAR_dani@group.calendar.google.com"}
+  ]
+}
